@@ -1,0 +1,214 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloxHub - Descargar</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="translations.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="ocean-background"></div>
+    
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="language-btn">
+            <svg class="flag-icon" viewBox="0 0 640 480">
+                <rect width="640" height="480" fill="#c60b1e"/>
+                <rect width="640" height="320" fill="#ffc400"/>
+                <path d="M0,160h640v160H0z" fill="#ffc400"/>
+            </svg>
+            Español
+        </button>
+        <div class="language-dropdown">
+            <div class="language-option" data-lang="es">
+                <svg class="flag-icon" viewBox="0 0 640 480">
+                    <rect width="640" height="480" fill="#c60b1e"/>
+                    <rect width="640" height="320" fill="#ffc400"/>
+                    <path d="M0,160h640v160H0z" fill="#ffc400"/>
+                </svg>
+                <span class="lang-text">Español</span>
+            </div>
+            <div class="language-option" data-lang="en">
+                <svg class="flag-icon" viewBox="0 0 640 480">
+                    <rect width="640" height="480" fill="#012169"/>
+                    <path d="M75,0l244,181L562,0h78v62L400,241l240,178v61h-80L320,301L81,480H0v-60l239-178L0,64V0h75z" fill="#FFF"/>
+                    <path d="M424,281l216,159v40L369,281h55zm-184,20l6,35L54,480H0l240-179zM640,0v3L391,191l2-44L590,0h50zM0,0l239,176h-60L0,42V0z" fill="#C8102E"/>
+                    <path d="M241,0v480h160V0H241zM0,160v160h640V160H0z" fill="#FFF"/>
+                    <path d="M0,193v96h640v-96H0zM273,0v480h96V0h-96z" fill="#C8102E"/>
+                </svg>
+                <span class="lang-text">English</span>
+            </div>
+            <div class="language-option" data-lang="pt">
+                <svg class="flag-icon" viewBox="0 0 640 480">
+                    <rect width="640" height="480" fill="#009b3a"/>
+                    <path d="M320,140l157.1,258.2-314.2,0L320,140z" fill="#fedf00"/>
+                    <circle cx="320" cy="270" r="75" fill="#002776"/>
+                    <path d="M215,290c33-0.4,88-24,182-24l-12-12c-60,6-120,6-168,24z" fill="#fff"/>
+                </svg>
+                <span class="lang-text">Português</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="bloxhub logo.png" alt="BloxHub Logo" class="logo-icon" width="50" height="50">
+                <h1>BloxHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="#download" data-i18n="nav_download">Descargar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2 data-i18n="hero_title">Calcula el valor de tus trades</h2>
+                <p data-i18n="hero_description">La mejor aplicación móvil para calcular el valor de tus intercambios en Blox Fruits</p>
+                <a href="#download" class="btn-primary" data-i18n="hero_button">Descargar Ahora</a>
+            </div>
+            <div class="fruits-container">
+                <img src="9165-control.png" alt="Blue Cube Creature" class="fruit blue-cube floating-fruit">
+                <img src="s-l1600.png" alt="Happy Cube Bat" class="fruit happy-bat floating-fruit">
+                <img src="OIP__11_-removebg-preview.png" alt="Spooky Cake" class="fruit spooky-cake floating-fruit">
+                <img src="Mammoth-Fruit-Blox-Fruits.webp" alt="Mammoth Blox Fruit" class="fruit mammoth-blox floating-fruit">
+                <img src="3464-leopard-fruit.png" alt="Leopard Cube" class="fruit leopard-cube floating-fruit">
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="download-main">
+                <div class="download-area">
+                    <h2 data-i18n="download_title">¡Descarga la App Ahora!</h2>
+                    <p data-i18n="download_subtitle">Disponible para Android</p>
+                    <!-- Botón de descarga -->
+                    <a href="bloxhub.apk" download="BloxHub.apk" class="download-btn">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" fill="#ffffff"/>
+                        </svg>
+                        <span data-i18n="download_button">Descargar APK</span>
+                    </a>
+                    <p class="version-info" data-i18n="version_info">Versión 1.0.0 | Optimizada para dispositivos con pocos recursos</p>
+                </div>
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-screen">
+                            <div class="app-header">
+                                <img src="bloxhub logo.png" alt="BloxHub Logo" class="app-logo-img">
+                                <div class="app-title">BloxHub</div>
+                            </div>
+                            <div class="app-content">
+                                <div class="app-trading-section">
+                                    <div class="trade-column">
+                                        <div class="trade-header" data-i18n="app_offers">Ofreces</div>
+                                        <div class="trade-item">Flame</div>
+                                        <div class="trade-item">Light</div>
+                                    </div>
+                                    <div class="trade-arrow">⟷</div>
+                                    <div class="trade-column">
+                                        <div class="trade-header" data-i18n="app_receive">Recibes</div>
+                                        <div class="trade-item">Dragon</div>
+                                    </div>
+                                </div>
+                                <div class="trade-result">
+                                    <div class="result-label" data-i18n="result_label">Resultado:</div>
+                                    <div class="result-value" data-i18n="result_value">¡Buen trade!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="donations" class="donations">
+            <div class="donations-container">
+                <h2 data-i18n="donations_title">Apoya el Proyecto</h2>
+                <img src="static-assets-upload233202636475822273.webp" alt="Three-headed Dragon Cube" class="donation-mascot floating-fruit">
+                <p data-i18n="donations_description">BloxHub es un proyecto gratuito que necesita tu apoyo para seguir mejorando</p>
+                
+                <div class="donation-options">
+                    <a href="https://www.paypal.com/paypalme/elbenkudonaciones" class="donation-btn paypal" target="_blank">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106z" fill="#009cde"/>
+                            <path d="M19.923 7.188c-.03.13-.05.26-.077.396-1.073 5.204-4.443 7.014-8.647 7.014h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106c-.07.44.211.837.656.837h4.018a.77.77 0 0 0 .759-.648l.033-.189.626-3.95.04-.222a.77.77 0 0 1 .759-.647h.478c3.105 0 5.536-1.257 6.244-4.899.296-1.514.184-2.766-.478-3.697z" fill="#012169"/>
+                        </svg>
+                        <span data-i18n="donate_paypal">Donar con PayPal</span>
+                    </a>
+                    <a href="#" class="donation-btn crypto">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M23.638 14.904c-1.602 6.425-8.113 10.323-14.542 8.725C2.67 22.027-1.244 15.525.36 9.105 1.962 2.68 8.475-1.22 14.9.376c6.43 1.596 10.342 8.098 8.738 14.528zm-11.35-9.784c-5.294-1.32-10.7 1.877-12.016 7.164-1.316 5.284 1.887 10.69 7.18 12.01 5.292 1.315 10.696-1.88 12.017-7.173 1.32-5.282-1.884-10.684-7.18-12z" fill="#F7931A"/>
+                            <path d="M17.22 10.645c.238-1.588-.974-2.436-2.633-3.003l.537-2.154-1.31-.325-.525 2.1c-.345-.087-.697-.167-1.05-.247l.53-2.12-1.31-.328-.54 2.153c-.284-.064-.563-.128-.832-.196l.002-.008-1.805-.45-.35 1.4s.975.224.956.237c.532.13.63.478.613.752l-.6 2.435c.036.01.083.023.135.043l-.138-.034-.855 3.42c-.064.16-.228.4-.595.308.013.02-.957-.237-.957-.237l-.654 1.51 1.7.426.93.243-.543 2.18 1.31.328.54-2.16c.356.1.703.19 1.046.273l-.54 2.143 1.31.328.55-2.17c2.222.42 3.9.25 4.6-1.757.564-1.612-.03-2.54-1.186-3.144.845-.195 1.485-.75 1.655-1.9zm-2.963 4.15c-.4 1.612-3.12.74-4.004.52l.716-2.865c.883.22 3.717.656 3.287 2.343zm.4-4.17c-.365 1.462-2.62.72-3.35.537l.65-2.587c.73.18 3.077.52 2.7 2.05z" fill="#F7931A"/>
+                        </svg>
+                        <span data-i18n="donate_crypto">Donar con Binance</span>
+                    </a>
+                </div>
+                
+                <div class="top-donors">
+                    <h3 data-i18n="top_donors">Mejores Donadores</h3>
+                    <div class="donors-list">
+                        <div class="donor">
+                            <div class="donor-trophy gold">1</div>
+                            <div class="donor-info">
+                                <span class="donor-name">Luffy_King</span>
+                                <span class="donor-amount">$50.00</span>
+                            </div>
+                        </div>
+                        <div class="donor">
+                            <div class="donor-trophy silver">2</div>
+                            <div class="donor-info">
+                                <span class="donor-name">ZoroSwordMaster</span>
+                                <span class="donor-amount">$35.00</span>
+                            </div>
+                        </div>
+                        <div class="donor">
+                            <div class="donor-trophy bronze">3</div>
+                            <div class="donor-info">
+                                <span class="donor-name">SanjiCook</span>
+                                <span class="donor-amount">$25.00</span>
+                            </div>
+                        </div>
+                        <div class="donor">
+                            <div class="donor-number">4</div>
+                            <div class="donor-info">
+                                <span class="donor-name">Chopper_MD</span>
+                                <span class="donor-amount">$15.00</span>
+                            </div>
+                        </div>
+                        <div class="donor">
+                            <div class="donor-number">5</div>
+                            <div class="donor-info">
+                                <span class="donor-name">Robin_Historian</span>
+                                <span class="donor-amount">$10.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="copyright">
+                <p data-i18n="copyright">&copy; 2025 BloxHub. Todos los derechos reservados.</p>
+                <p data-i18n="disclaimer">Esta aplicación no está afiliada con Roblox Corporation o Blox Fruits.</p>
+            </div>
+        </footer>
+    </div>
+    <div id="binance-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 data-i18n="binance_scan_title">Escanea para donar</h3>
+            <img src="binance.jpg" alt="Binance QR Code" class="qr-code">
+            <p data-i18n="binance_scan_instructions" class="modal-instructions">Escanea este código QR desde tu aplicación Binance Pay para realizar la donación</p>
+        </div>
+    </div>
+</body>
+</html>
